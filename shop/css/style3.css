@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    width: 1360px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+}
+.nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 0 92px 0 92px;
+}
+.navigation {
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+}
+.nav__img {
+    width: 18px;
+    height: 18px;
+}
+.nav__img-box>:nth-child(1){
+    margin-right: 35px;
+}
+.logo {
+    width: 75px;
+    height: 17px;
+}
+.navigation__item {
+    margin-left: 35px;
+}
+.nav__img-box>:nth-child(2){
+    margin-right: 98px;
+}
+.main{
+    width: 100%; 
+    display: flex;
+    padding: 80px 92px 0 92px;
+    background: white;
+    flex-direction: column;
+}
+.purchase__container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 130px;
+}
+.purchase__img{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.arrow__left{
+    align-self: center;
+    width: 42px;
+    height: 20px;
+    margin-right: 40px;
+}
+.big__img{
+    width: 400px;
+    height: 523px;
+}
+.arrow__right{
+    align-self: center;
+    width: 41px;
+    height: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+.img__gallery{
+    display: flex;
+    width: 29%;
+
+}
+.small__img{
+    width: 85px;
+    height: 113px;
+    margin-right: 20px;
+}
+.purchase__block-img{
+    margin-top: 20px;
+    margin-left: 85px;
+}
+.purchase__block{
+    background: #F1F2F4;
+    width: 50%;
+    padding: 70px 0 70px 70px;
+}
+.purchase__title{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.purchase__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 50px;
+}
+.purchase__color{
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+.color__choice{
+    width: 16px;
+    height: 16px;
+    margin-right: 30px;
+    margin-bottom: 43px;
+}
+.purchase__size{
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+.size__choice{
+    height: 13px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.purchase__size>:nth-child(1){
+    width: 23px;
+}
+.purchase__size>:nth-child(2){
+    width: 12px;
+}
+.purchase__size>:nth-child(3){
+    width: 16px;
+}
+.purchase__size>:nth-child(4){
+    width: 11px;
+}
+.purchase__size>:nth-child(5){
+    width: 22px;
+}
+.purchase__price{
+    margin-bottom: 50px;
+}
+.purchase__button{
+    width: 200px;
+    height: 64px;
+    background: #151C22;
+}
+.purchase__link{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+.ymal__title-box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.ymal__title {
+    font-size: 32px;
+}
+.ymal__link {
+    color: #151C22;
+    font-size: 18px;
+}
+.ymal__gallery-box {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+.gallery__img {
+    margin-bottom: 15px;
+}
+.gallery__title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.gallery__price {
+    font-size: 16px;
+    margin-bottom: 130px;
+}
+.footer {
+    width: 100%;
+    height: 222px;                                                                                      
+    display: flex;
+    flex-direction: column;
+    background: #151C22;
+    justify-content: center;
+    align-items: center;
+    padding: 0 92px 0 92px;
+}
+.footer__logo{
+    width: 75px;
+    height: 17px;
+    margin-bottom: 35px;
+}
+.footer__nav {
+    display: flex;
+    margin-bottom: 37px;
+}
+.footer__nav-item {
+    font-size: 18px;
+    color: white;
+    list-style-type: none;
+    margin-right: 35px;
+}
+.footer__img-container{
+    display: flex;
+}
+.footer__img {
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+}
